@@ -34,6 +34,10 @@ group :test, :development do
 	gem 'launchy' # a useful debugging aid for user stories
 end
 
+group :test do
+	gem 'rspec-rails'
+end
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
